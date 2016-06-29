@@ -17,16 +17,16 @@ So, we can use some tricks to help us and make our code cleaner and simpler.
 This is the similar use of
 
 ````javascript
-x += 23; // x = x + 23;
-y -= 15; // y = y - 15;
-z *= 10; // z = z * 10;
-k /= 7; // k = k / 7;
-p %= 3; // p = p % 3;
-d **= 2; // d = d ** 2;
-m >>= 2; // m = m >> 2;
-n <<= 2; // n = n << 2;
-n ++; // n = n + 1;
-n --; n = n - 1;
+x += 23; // Add x = x + 23;
+y -= 15; // Substract y = y - 15;
+z *= 10; // Multiply z = z * 10;
+k /= 7; // Divide k = k / 7;
+p %= 3; // Modulus p = p % 3;
+d **= 2; // Square d = d ** 2;
+m >>= 2; // Right shift m = m >> 2;
+n <<= 2; // Left shift n = n << 2;
+n ++; // Increment n = n + 1;
+n --; // Decrement n = n - 1;
 
 ````
 
